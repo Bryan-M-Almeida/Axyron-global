@@ -1,9 +1,14 @@
 import Header from "../src/Components/Header";
-import "./index.scss"
+import Hero from "./Components/Hero";
+import Carrossel from "./Components/Carrossel";
+
+import "./index.scss";
 function App() {
   return (
     <>
       <Header />
+      <Hero />
+      <Carrossel />
     </>
   );
 }
