@@ -2,9 +2,10 @@ import Header from "../src/Components/Header";
 import Hero from "./Components/Hero";
 import Carrossel from "./Components/Carrossel";
 import About from "./Components/About";
-
+import Footer from "./Components/Footer";
 
 import "./index.scss";
+
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Carrossel />
       <About />
+      <Footer />
     </>
   );
 }

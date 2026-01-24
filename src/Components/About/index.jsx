@@ -1,4 +1,12 @@
-import { Target, Eye, ShieldCheck, Leaf, Gem, Handshake } from "lucide-react";
+import {
+  Target,
+  Eye,
+  ShieldCheck,
+  Leaf,
+  Gem,
+  Handshake,
+  MapPin,
+} from "lucide-react";
 
 const About = () => {
   return (
@@ -35,7 +43,7 @@ const About = () => {
               referência para as maiores empresas do mercado offshore e eólico.
             </p>
 
-            <div className="grid grid-cols-1 gap-8 mb-10">
+            <div className="grid grid-cols-2 gap-8 mb-10">
               <div>
                 <h4 className="text-blue-900 font-bold mb-2 flex items-center gap-2">
                   <Target size={24} />
@@ -61,31 +69,46 @@ const About = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-
-              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col">
-                <ShieldCheck size={24} />
-                <h5 className="font-bold text-slate-900 text-xs uppercase mb-1">Segurança</h5>
-              </div>
-
-              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col">
-                <Gem size={24} />
+              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
+                <ShieldCheck size={24} className="text-blue-900" />
                 <h5 className="font-bold text-slate-900 text-xs uppercase mb-1">
-                    Qualidade
+                  Segurança
                 </h5>
               </div>
 
-              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col">
-                <Leaf size={24} />
-                <h5 className="font-bold text-slate-900 text-xs uppercase mb-1"></h5>
+              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
+                <Gem size={24} className="text-blue-900" />
+                <h5 className="font-bold text-slate-900 text-xs uppercase mb-1">
+                  Qualidade
+                </h5>
               </div>
 
-              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col">
-                <Handshake size={24} />
-                <h5 className="font-bold text-slate-900 text-xs uppercase mb-1"></h5>
+              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
+                <Leaf
+                  size={24}
+                  className="text-blue-500 fill-blue-800 stroke-blue-600"
+                />
+                <h5 className="font-bold text-slate-900 text-xs uppercase text-center break-words break-all">
+                  Sustentabilidade
+                </h5>
               </div>
 
+              <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
+                <Handshake size={24} className="text-blue-900" />
+                <h5 className="font-bold text-slate-900 text-xs uppercase mb-1 break-all">
+                  Comprometimento
+                </h5>
+              </div>
+            </div>
 
+            <div className="w-full bg-slate-50 p-2 mt-3 border-l-3 border-blue-600 flex items-center gap-2">
+              <MapPin size={24} className="text-blue-600" />
 
+              <div className="flex flex-col items-start">
+                <p className="font-bold text-slate-900">Região de atuação</p>
+                <p className="text-slate-600 text-sm">Brasil, Américas e Europa</p>
+                <p className="text-slate-400 text-xs mt-1">Sede principal: Unamar, RJ - Brasil</p>
+              </div>
             </div>
           </div>
         </div>
