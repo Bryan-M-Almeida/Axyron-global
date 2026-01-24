@@ -21,7 +21,7 @@ const Carrossel = () => {
   return (
     <section className="py-12 bg-white border-b border-gray-100 overflow-hidden">
       <div className="container mx-auto px-6 mb-8 text-center">
-        <h3 class="text-gray-400 text-sm font-bold uppercase tracking-widest">
+        <h3 className="text-gray-400 text-sm font-bold uppercase tracking-widest">
           Confiam no nosso trabalho
         </h3>
       </div>

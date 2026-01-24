@@ -17,7 +17,7 @@ const About = () => {
           <div className="lg:w-1/2 relative">
             <img
               alt="Industrial Team"
-              class="rounded-2xl shadow-2xl relative z-10 w-full object-cover aspect-[4/5]"
+              className="rounded-2xl shadow-2xl relative z-10 w-full object-cover aspect-[4/5]"
               src="https://images.unsplash.com/photo-1542336391-ae2936d8efe4?auto=format&amp;fit=crop&amp;q=80&amp;w=1000"
             ></img>
             <div className="absolute bg-blue-600 text-white p-8 z-20 rounded-xl shadow-xl bottom-10 left-10 hidden md:block">
