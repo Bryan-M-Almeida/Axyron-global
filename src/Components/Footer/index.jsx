@@ -143,7 +143,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-10 px-5 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-40 text-slate-500 text-xs">
+        <div className="pt-10 px-5 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-5 text-slate-500 text-xs">
           <a href="#" className="hover:text-white">
             2026 Grupo MAVC. Todos os direitos reservados.
           </a>

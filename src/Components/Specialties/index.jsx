@@ -112,7 +112,7 @@ const Services = () => {
           })}
         </div>
 
-        <div className="flex items-center justify-between my-10 bg-blue-600 rounded-xl p-10">
+        <div className="flex items-center justify-between my-10 bg-blue-600 rounded-xl p-10 flex-col gap-4 md:flex-row">
           <div className="flex flex-col items-start">
             <h3 className="font-black text-xl">
               Precisa de um serviço customizado?

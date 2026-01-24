@@ -5,7 +5,7 @@ const Seguranca = () => {
     <section className="bg-white py-24">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
-          <div className="w-1/2">
+          <div className="md:w-1/2 w-full">
             <span className="uppercase text-red-600 font-bold tracking-widest block">
               Segurança em primeiro lugar
             </span>

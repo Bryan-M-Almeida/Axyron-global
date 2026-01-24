@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { AlignJustify } from "lucide-react";
+import { AlignJustify, XIcon } from "lucide-react";
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -11,6 +11,7 @@ const Header = () => {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header
@@ -84,14 +85,51 @@ const Header = () => {
           </a>
         </nav>
 
-        <button className="md:hidden text-2xl">
-          <AlignJustify
-            size={24}
-            className={`${scrolled ? "text-blue-900" : "text-white/90"} cursor-pointer`}
-            strokeWidth={3}
-          />
+        <button
+          className="md:hidden text-2xl"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? (
+            <XIcon
+              size={24}
+              className={`${scrolled ? "text-blue-900" : "text-white/90"} cursor-pointer`}
+              strokeWidth={3}
+            />
+          ) : (
+            <AlignJustify
+              size={24}
+              className={`${scrolled ? "text-blue-900" : "text-white/90"} cursor-pointer`}
+              strokeWidth={3}
+            />
+          )}
         </button>
       </div>
+
+      <nav
+        className={`md:hidden  bg-white border-t border-gray-100 absolute top-full left-0 w-full p-6 shadow-xl gap-4 ${menuOpen ? "flex flex-col" : "hidden"}`}
+      >
+        <a href="" className="text-slate-700 font-medium py-2">
+          Início
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Empresa
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Serviços
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Portfólio
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Equipe
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Blog
+        </a>
+        <a href="" className="text-slate-700 font-medium py-2">
+          Contato
+        </a>
+      </nav>
     </header>
   );
 };
