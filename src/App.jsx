@@ -1,6 +1,8 @@
 import Header from "../src/Components/Header";
 import Hero from "./Components/Hero";
 import Carrossel from "./Components/Carrossel";
+import About from "./Components/About";
+
 
 import "./index.scss";
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Carrossel />
+      <About />
     </>
   );
 }

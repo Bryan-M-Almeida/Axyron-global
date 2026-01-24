@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce text-white/50">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce text-white/50">
         <span className="text-xs uppercase tracking-widest mb-2">Scroll</span>
         <ChevronDown size={20} />
       </div>
