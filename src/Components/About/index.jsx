@@ -106,8 +106,12 @@ const About = () => {
 
               <div className="flex flex-col items-start">
                 <p className="font-bold text-slate-900">Região de atuação</p>
-                <p className="text-slate-600 text-sm">Brasil, Américas e Europa</p>
-                <p className="text-slate-400 text-xs mt-1">Sede principal: Unamar, RJ - Brasil</p>
+                <p className="text-slate-600 text-sm">
+                  Brasil, Américas e Europa
+                </p>
+                <p className="text-slate-400 text-xs mt-1">
+                  Sede principal: Unamar, RJ - Brasil
+                </p>
               </div>
             </div>
           </div>

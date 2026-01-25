@@ -84,7 +84,7 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className="p-10 bg-slate-800 border border-slate-700 rounded-2xl hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 group"
+                className="p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 group"
               >
                 <div className="w-16 h-16 bg-blue-600/10 text-blue-500 rounded-xl flex items-center justify-center text-3xl mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all">
                   <Icon size={24} />

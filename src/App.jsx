@@ -4,7 +4,7 @@ import Carrossel from "./Components/Carrossel";
 import About from "./Components/About";
 import Services from "./Components/Specialties";
 import Seguranca from "./Components/Seguranca";
-
+import Portfolio from "./Components/Portfolio";
 import Footer from "./Components/Footer";
 
 import "./index.scss";
@@ -14,10 +14,11 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Carrossel />
+      {/* <Carrossel /> */}
       <About />
       <Services />
       <Seguranca />
+      <Portfolio />
       <Footer />
     </>
   );

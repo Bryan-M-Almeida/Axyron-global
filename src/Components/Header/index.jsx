@@ -23,14 +23,14 @@ const Header = () => {
       <div className="container mx-auto px-6 flex justify-between items-center flex-wrap">
         <div className="flex items-center gap-2 p-2">
           <div
-            className={`w-10 h-10 rounded-lg flex items-center justify-center font-brand font-black text-xl  ${scrolled ? "bg-blue-900 text-white" : "bg-white text-blue-900"}`}
+            className={`w-8 h-8 rounded-lg flex items-center justify-center font-brand font-black text-xl  ${scrolled ? "bg-blue-900 text-white" : "bg-white text-blue-900"}`}
           >
-            M
+            A
           </div>
           <span
             className={`text-xl font-brand font-extrabold tracking-tight ${scrolled ? "text-blue-900" : "text-white"}`}
           >
-            Grupo MAVC
+            Axyron Global
           </span>
         </div>
 

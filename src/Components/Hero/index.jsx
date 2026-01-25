@@ -12,12 +12,14 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl">
           <span className="my-20 inline-block px-4 py-1 rounded-full bg-blue-500/20 text-blue-400 font-bold text-sm mb-6 border border-blue-400/30 backdrop-blur-sm">
-            Líder em Soluções Industriais
+            Grupo em formação contando com mais de 20 anos de experiência
           </span>
-          <h1 className="text-5xl md:text-7xl font-brand font-black text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-brand font-black text-white mb-6 leading-tight">
             Excelência Operacional
             <br />
-            <span className="text-blue-400">Eólico, Óleo & Gás.</span>
+            <span className="text-blue-400">
+              Eólico, Óleo, Gás & Siderúrgica.
+            </span>
           </h1>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl leading-relaxed">
             O grupo oferece soluções de alta complexidade técnica em ambientes

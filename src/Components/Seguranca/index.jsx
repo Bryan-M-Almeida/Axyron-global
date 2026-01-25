@@ -1,4 +1,10 @@
-import { CircleCheck, Award } from "lucide-react";
+import {
+  CircleCheck,
+  BadgeCheck,
+  UserCheck2,
+  HardHat,
+  Fan,
+} from "lucide-react";
 
 const Seguranca = () => {
   return (
@@ -41,10 +47,67 @@ const Seguranca = () => {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="flex gap-4 p-4 border border-slate-100 rounded-xl hover:shadow-md transition-shadow">
-                <div className="">
-                  <Award size={24} className="fill-blue-900 text-white" />
+                <div className="flex items-center justify-around w-full">
+                  <BadgeCheck size={25} className="fill-blue-900 text-white" />
+
+                  <div className="flex flex-col items-start justify-center">
+                    <span className="uppercase font-bold text-md">
+                      Iso 9001
+                    </span>
+                    <span className="text-xs text-slate-600">
+                      gestão de qualidade
+                    </span>
+                  </div>
                 </div>
               </div>
+
+              <div className="flex gap-4 p-4 border border-slate-100 rounded-xl hover:shadow-md transition-shadow">
+                <div className="flex items-center justify-around w-full">
+                  <UserCheck2 size={25} className="text-blue-900" />
+
+                  <div className="flex flex-col items-start justify-center">
+                    <span className="font-bold text-md">
+                      IRATA internacional
+                    </span>
+                    <span className="text-xs text-slate-600">
+                      Acesso por cordas
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex gap-4 p-4 border border-slate-100 rounded-xl hover:shadow-md transition-shadow">
+                <div className="flex items-center justify-around w-full">
+                  <HardHat size={25} className="text-blue-900" />
+
+                  <div className="flex flex-col items-start justify-center">
+                    <span className="uppercase font-bold text-md">
+                      Iso 45001
+                    </span>
+                    <span className="text-xs">Segurança do trabalho</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex gap-4 p-4 border border-slate-100 rounded-xl hover:shadow-md transition-shadow">
+                <div className="flex items-center justify-around w-full">
+                  <Fan size={25} className="fill-blue-900 text-white" />
+
+                  <div className="flex flex-col items-start justify-center">
+                    <span className="uppercase font-bold text-md">
+                      GWO Standard
+                    </span>
+                    <span className="text-xs">Treinamento eólico</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="md:w-1/2 w-full">
+            <div className="container flex gap-2 items-center justify-center">
+              <img src="https://picsum.photos/seed/safe1/400/500" alt="" className="rounded-xl w-1/2 h-1/2 -translate-y-7" />
+              <img src="https://picsum.photos/seed/safe2/400/500" alt="" className="rounded-xl w-1/2 h-1/2 -translate-y-10"/>
             </div>
           </div>
         </div>
