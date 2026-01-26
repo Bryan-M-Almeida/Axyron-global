@@ -9,9 +9,9 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <div className="flex gap-2 items-center">
                 <div className="font-black text-md bg-blue-600 rounded-md px-2 py-1">
-                  M
+                  A
                 </div>
-                <span className="font-brand font-black">Grupo MAVC</span>
+                <span className="font-brand font-black">Axyron Global</span>
               </div>
 
               <p className="text-sm text-slate-400 leading-relaxed mb-6">
@@ -145,7 +145,7 @@ const Footer = () => {
 
         <div className="pt-10 px-5 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-5 text-slate-500 text-xs">
           <a href="#" className="hover:text-white">
-          &copy; 2026 Grupo MAVC. Todos os direitos reservados.
+            &copy; 2026 Axyron Global. Todos os direitos reservados.
           </a>
 
           <a href="#" className="hover:text-white">
@@ -157,7 +157,7 @@ const Footer = () => {
           </a>
 
           <a href="#" className="hover:text-white">
-            Desenvolvido por <strong>MAVC Tech</strong>
+            Desenvolvido por <strong>Axyron Tech</strong>
           </a>
 
           <a href="#" className="hover:text-white">

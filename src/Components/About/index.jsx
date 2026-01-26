@@ -37,7 +37,7 @@ const About = () => {
             </h2>
 
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              O <strong>Grupo MAVC</strong> nasceu com a missão de elevar o
+              O <strong>Axyron Global</strong> nasceu com a missão de elevar o
               padrão de manutenção industrial no Brasil. Especializados em
               acesso por corda e reparos estruturais, rapidamente nos tornamos
               referência para as maiores empresas do mercado offshore e eólico.

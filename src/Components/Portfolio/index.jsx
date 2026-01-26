@@ -13,7 +13,7 @@ const Portfolio = () => {
       imagem: "https://picsum.photos/seed/wind1/800/600",
     },
     {
-      id: 1,
+      id: 2,
       titulo: "Parque Eólico Delta",
       setor: ["Petróleo e gás"],
       empresa: "EnergyCorp",
@@ -22,7 +22,7 @@ const Portfolio = () => {
       imagem: "https://picsum.photos/seed/wind1/800/600",
     },
     {
-      id: 1,
+      id: 3,
       titulo: "Parque Eólico Delta",
       setor: ["Eólico"],
       empresa: "EnergyCorp",
@@ -31,7 +31,7 @@ const Portfolio = () => {
       imagem: "https://picsum.photos/seed/wind1/800/600",
     },
     {
-      id: 1,
+      id: 4,
       titulo: "Parque Eólico Delta",
       setor: ["Eólico"],
       empresa: "EnergyCorp",
