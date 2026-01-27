@@ -1,7 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 const Faq = () => {
-  const [estado, setEstado] = useState(false);
+  const [faqAberta, setFaqAberta] = useState(null);
 
   const faqs = [
     {
@@ -9,6 +9,18 @@ const Faq = () => {
       pergunta: "Quais são as principais certificações da equipe?",
       resposta:
         "Nossa equipe possui certificações internacionais como IRATA (Níveis 1, 2 e 3), GWO (Global Wind Organisation), HUET e CBSP para operações offshore.",
+    },
+    {
+      id: 2,
+      pergunta: "A Axyron Global atua fora do Brasil?",
+      resposta:
+        "Sim, realizamos operações em toda a América Latina e possuímos parcerias estratégicas para projetos na Europa.",
+    },
+    {
+      id: 3,
+      pergunta: "Quais são os diferenciais de segurança da empresa?",
+      resposta:
+        "Temos um índice zero de acidentes com afastamento desde a fundação. Utilizamos equipamentos de ponta e auditorias semanais de HSE.",
     },
   ];
 
@@ -44,6 +56,7 @@ const Faq = () => {
 
           <div className="lg:w-2/3 space-y-4">
             {faqs.map((item) => {
+              const aberta = faqAberta === item.id;
               return (
                 <div
                   key={item.id}
@@ -51,19 +64,23 @@ const Faq = () => {
                 >
                   <button
                     className="w-full p-6 text-left flex justify-between items-center hover:bg-slate-50 transition-colors cursor-pointer"
-                    onClick={() => setEstado(!estado)}
+                    onClick={() => setFaqAberta(aberta ? null : item.id)}
                   >
                     <span className="font-bold text-slate-800 pr-8">
                       {item.pergunta}
                     </span>
-                    <ChevronDown size={24} className={`${estado === false ? "rotate-0" : "rotate-180"} transition-transform duration-300`}/>
+                    <ChevronDown
+                      size={24}
+                      className={`${aberta ? "rotate-180" : "rotate-0"} transition-transform duration-300`}
+                    />
                   </button>
-
-                  <div
-                    className={`p-6 pt-0 text-slate-600 border-t border-slate-50 leading-relaxed ${estado === false ? "hidden" : "block"}`}
-                  >
-                    {item.resposta}
-                  </div>
+                  {aberta && (
+                    <div
+                      className={`p-6 pt-0 text-slate-600 border-t border-slate-50 leading-relaxed`}
+                    >
+                      {item.resposta}
+                    </div>
+                  )}
                 </div>
               );
             })}

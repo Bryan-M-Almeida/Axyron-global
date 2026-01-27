@@ -13,22 +13,28 @@ import Team from "./Components/Team";
 import Gallery from "./Components/Gallery";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
+import Blog from "./Components/Blog";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen">
       <Header />
-      <Hero />
-      {/* <Carrossel /> */}
-      <About />
-      <Services />
-      <Seguranca />
-      <Portfolio />
-      <Team />
-      <Gallery />
-      <Faq />
+      <main>
+        <Hero />
+        {/* <Carrossel /> */}
+        <About />
+        <Services />
+        <Seguranca />
+        <Portfolio />
+        <Team />
+        <Gallery />
+        <Faq />
+        <Blog />
+        <Contact />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

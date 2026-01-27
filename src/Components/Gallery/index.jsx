@@ -4,46 +4,10 @@ const Gallery = () => {
   const fotos = [
     {
       id: 1,
-      link: "https://wallpapers.com/images/featured/neji-ia0cobehtumhtmwv.jpg",
+      link: "https://i.pinimg.com/736x/fb/b6/b9/fbb6b91ed9e3957ef74a3ad8376161f6.jpg",
       tittle: "mato",
       desc: "",
-    },
-    {
-      id: 2,
-      link: "https://i.pinimg.com/736x/b6/7d/22/b67d220325853bdc7116f79b38f6e37d.jpg",
-      tittle: "mato",
-      desc: "",
-    },
-    {
-      id: 3,
-      link: "https://i.pinimg.com/1200x/f4/7c/1a/f47c1a980ade22b4106559349f81d088.jpg",
-      tittle: "mato",
-      desc: "",
-    },
-    {
-      id: 4,
-      link: "https://i.redd.it/dcgcrvejc9x41.jpg",
-      tittle: "mato",
-      desc: "",
-    },
-    {
-      id: 5,
-      link: "https://i.pinimg.com/736x/62/ed/b8/62edb8be3295c6c7f51cfa6a5320bd07.jpg",
-      tittle: "mato",
-      desc: "",
-    },
-    {
-      id: 6,
-      link: "https://picsum.photos/seed/gall6/800/600",
-      tittle: "mato",
-      desc: "",
-    },
-    {
-      id: 7,
-      link: "https://i.pinimg.com/736x/10/d8/5e/10d85ed6fd6c4458b7b6b09b84f43d7b.jpg",
-      tittle: "mato",
-      desc: "",
-    },
+    }
   ];
 
   return (

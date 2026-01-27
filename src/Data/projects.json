@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Parque Eólico Delta",
+    "setor": ["Eólico"],
+    "empresa": "EnergyCorp",
+    "local": "Ceará, BR",
+    "ano": 2023,
+    "imagem": "https://picsum.photos/seed/wind1/800/600"
+  },
+  {
+    "id": 2,
+    "titulo": "Parque Eólico Delta",
+    "setor": ["Petróleo e gás"],
+    "empresa": "EnergyCorp",
+    "local": "Ceará, BR",
+    "ano": 2023,
+    "imagem": "https://picsum.photos/seed/wind1/800/600"
+  },
+  {
+    "id": 3,
+    "titulo": "Parque Eólico Delta",
+    "setor": ["Eólico"],
+    "empresa": "EnergyCorp",
+    "local": "Ceará, BR",
+    "ano": 2023,
+    "imagem": "https://picsum.photos/seed/wind1/800/600"
+  },
+  {
+    "id": 4,
+    "titulo": "Parque Eólico Delta",
+    "setor": ["Eólico"],
+    "empresa": "EnergyCorp",
+    "local": "Ceará, BR",
+    "ano": 2023,
+    "imagem": "https://picsum.photos/seed/wind1/800/600"
+  }
+]
