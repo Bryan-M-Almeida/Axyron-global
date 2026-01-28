@@ -10,6 +10,36 @@ const Team = () => {
       imagem:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
     },
+    {
+      id: 1,
+      nome: "Aramis",
+      cargo: "Organizador",
+      certificacao: ["GWO", "IRATA N3"],
+      descricao:
+        "Mais de 20 anos de experiência no setor offshore e renováveis.",
+      imagem:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
+    },
+    {
+      id: 2,
+      nome: "Mota",
+      cargo: "Organizador",
+      certificacao: ["GWO", "IRATA N3"],
+      descricao:
+        "Mais de 20 anos de experiência no setor offshore e renováveis.",
+      imagem:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
+    },
+    {
+      id: 3,
+      nome: "Paulo Vitor",
+      cargo: "Organizador",
+      certificacao: ["GWO", "IRATA N3"],
+      descricao:
+        "Mais de 20 anos de experiência no setor offshore e renováveis.",
+      imagem:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
+    },
   ];
 
   return (
@@ -31,7 +61,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {time.map((funcionario) => {
             return (
               <div key={funcionario.id} className="text-center group">

@@ -80,27 +80,42 @@ const Footer = () => {
 
               <ul className="space-y-4 text-slate-400 text-sm">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Eólica/Offshore
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Manutenção de pás
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Inspeções END Offshore
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Acesso por cordas IRATA
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="#services"
+                    className="hover:text-white transition-colors"
+                  >
                     Tratamento anticorrosivo
                   </a>
                 </li>

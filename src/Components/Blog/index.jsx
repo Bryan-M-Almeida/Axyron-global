@@ -5,91 +5,9 @@ const Blog = () => {
     {
       id: 1,
       link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
-      data: "12 mai, 2024",
-    },
-    {
-      id: 1,
-      link: "",
-      imagem:
-        "https://www.einerd.com/wp-content/uploads/2024/08/jujutsu-kaisen-e1724377468589.jpg",
-      tittle: "O futuro da energia offshore no Brasil",
-      descricao:
-        "Análise sobre as novas regulamentações e o potencial da costa brasileira para eólica offshore.",
+      imagem: "",
+      tittle: "",
+      descricao: "",
       data: "12 mai, 2024",
     },
   ];
@@ -113,7 +31,7 @@ const Blog = () => {
         <div className="flex gap-8 overflow-x-auto scroll-smooth pb-4">
           {posts.map((post) => {
             return (
-              <article className="group cursor-pointer min-w-[320px] max-w-[320px]">
+              <article className="group cursor-pointer min-w-[320px] max-w-[320px]" key={post.id}>
                 <div className="relative overflow-hidden rounded-2xl mb-6 shadow-lg">
                   <img
                     src={post.imagem}

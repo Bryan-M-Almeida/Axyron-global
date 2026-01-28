@@ -27,14 +27,14 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href=""
+              href="#services"
               className="px-10 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all flex items-center justify-center gap-2"
             >
               Nossos Serviços <ArrowRight size={20} />
             </a>
 
             <a
-              href=""
+              href="#contact"
               className="px-10 py-4 bg-white/10 text-white font-bold rounded-lg hover:bg-white/20 transition-all border border-white/20 backdrop-blur-md flex items-center justify-center"
             >
               Fale Conosco

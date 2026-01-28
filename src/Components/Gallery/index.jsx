@@ -4,8 +4,8 @@ const Gallery = () => {
   const fotos = [
     {
       id: 1,
-      link: "https://i.pinimg.com/736x/fb/b6/b9/fbb6b91ed9e3957ef74a3ad8376161f6.jpg",
-      tittle: "mato",
+      link: "",
+      tittle: "",
       desc: "",
     }
   ];
