@@ -46,27 +46,27 @@ const Footer = () => {
 
               <ul className="space-y-4 text-slate-400 text-sm">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#about" className="hover:text-white transition-colors">
                     Sobre nós
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#services" className="hover:text-white transition-colors">
                     Nossos serviços
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#projects" className="hover:text-white transition-colors">
                     Portfólio de obras
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#team" className="hover:text-white transition-colors">
                     Equipe técnica
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#blog" className="hover:text-white transition-colors">
                     Blog e Notícias
                   </a>
                 </li>
@@ -129,7 +129,7 @@ const Footer = () => {
 
               <ul className="space-y-4 text-slate-400 text-sm">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a href="#faq" className="hover:text-white transition-colors">
                     FAQ
                   </a>
                 </li>
@@ -149,7 +149,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="https://wa.me/5521966476613"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
                     Central de Atendimento
                   </a>
                 </li>

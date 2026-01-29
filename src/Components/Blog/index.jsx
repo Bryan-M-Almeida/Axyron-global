@@ -1,17 +1,6 @@
 import { Calendar, ArrowRight } from "lucide-react";
-
+import posts from "../../Data/posts.json";
 const Blog = () => {
-  const posts = [
-    {
-      id: 1,
-      link: "",
-      imagem: "",
-      tittle: "",
-      descricao: "",
-      data: "12 mai, 2024",
-    },
-  ];
-
   return (
     <section id="blog" className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -31,7 +20,10 @@ const Blog = () => {
         <div className="flex gap-8 overflow-x-auto scroll-smooth pb-4">
           {posts.map((post) => {
             return (
-              <article className="group cursor-pointer min-w-[320px] max-w-[320px]" key={post.id}>
+              <article
+                className="group cursor-pointer min-w-[320px] max-w-[320px]"
+                key={post.id}
+              >
                 <div className="relative overflow-hidden rounded-2xl mb-6 shadow-lg">
                   <img
                     src={post.imagem}
@@ -46,7 +38,7 @@ const Blog = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest mb-3">
-                  <Calendar size={20} />
+                  <Calendar size={20} /> 
                   <span>{post.data}</span>
                 </div>
 
@@ -57,7 +49,9 @@ const Blog = () => {
                   {post.descricao}
                 </p>
                 <a
-                  href="#"
+                  href={post.url}
+                  rel="noopener noreferrer"
+                  target="_blank"
                   className="font-bold text-sm flex items-center gap-2 text-slate-900 hover:gap-4 transition-all"
                 >
                   Ler Artigo Completo

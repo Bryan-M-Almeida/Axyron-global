@@ -1,38 +1,65 @@
 [
   {
     "id": 1,
-    "titulo": "Parque Eólico Delta",
-    "setor": ["Eólico"],
+    "titulo": "Plataforma",
+    "setor": ["Petróleo e gás"],
     "empresa": "EnergyCorp",
-    "local": "Ceará, BR",
-    "ano": 2023,
-    "imagem": "https://picsum.photos/seed/wind1/800/600"
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2018,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684303/Foto_25_uocqup.jpg"
   },
   {
     "id": 2,
-    "titulo": "Parque Eólico Delta",
-    "setor": ["Petróleo e gás"],
-    "empresa": "EnergyCorp",
-    "local": "Ceará, BR",
-    "ano": 2023,
-    "imagem": "https://picsum.photos/seed/wind1/800/600"
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Eólico"],
+    "empresa": "Muehlham",
+    "local": "Grécia",
+    "ano": 2025,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684298/Foto_15_oxstd1.jpg"
   },
   {
     "id": 3,
-    "titulo": "Parque Eólico Delta",
-    "setor": ["Eólico"],
-    "empresa": "EnergyCorp",
-    "local": "Ceará, BR",
-    "ano": 2023,
-    "imagem": "https://picsum.photos/seed/wind1/800/600"
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Siderúrgica"],
+    "empresa": "Muehlham",
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2015,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_11_p0mmje.jpg"
   },
   {
     "id": 4,
-    "titulo": "Parque Eólico Delta",
-    "setor": ["Eólico"],
-    "empresa": "EnergyCorp",
-    "local": "Ceará, BR",
-    "ano": 2023,
-    "imagem": "https://picsum.photos/seed/wind1/800/600"
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Siderúrgica"],
+    "empresa": "Muehlham",
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2015,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684295/Foto_1_pxzupy.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Siderúrgica"],
+    "empresa": "Muehlham",
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2015,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684295/Foto_41_hgvkvc.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Petróleo e gás"],
+    "empresa": "Muehlham",
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2015,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_6_bce7rc.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Manutenção de pás eólicas",
+    "setor": ["Petróleo e gás"],
+    "empresa": "Muehlham",
+    "local": "Rio de Janeiro, Brasil",
+    "ano": 2015,
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_12_i61xgg.jpg"
   }
 ]

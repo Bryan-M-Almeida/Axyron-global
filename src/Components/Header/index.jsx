@@ -108,25 +108,25 @@ const Header = () => {
       <nav
         className={`md:hidden  bg-white border-t border-gray-100 absolute top-full left-0 w-full p-6 shadow-xl gap-4 ${menuOpen ? "flex flex-col" : "hidden"}`}
       >
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#home" className="text-slate-700 font-medium py-2">
           Início
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#about" className="text-slate-700 font-medium py-2">
           Empresa
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#services" className="text-slate-700 font-medium py-2">
           Serviços
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#projects" className="text-slate-700 font-medium py-2">
           Portfólio
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#team" className="text-slate-700 font-medium py-2">
           Equipe
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#blog" className="text-slate-700 font-medium py-2">
           Blog
         </a>
-        <a href="" className="text-slate-700 font-medium py-2">
+        <a href="#contact" className="text-slate-700 font-medium py-2">
           Contato
         </a>
       </nav>

@@ -1,45 +1,8 @@
 import { useState } from "react";
-
+import projetos from "../../Data/projects.json";
 const Portfolio = () => {
   const [setorAtivo, setSetorAtivo] = useState("Todos");
-  const projetos = [
-    {
-      id: 1,
-      titulo: "Parque Eólico Delta",
-      setor: ["Eólico"],
-      empresa: "EnergyCorp",
-      local: "Ceará, BR",
-      ano: 2023,
-      imagem: "https://picsum.photos/seed/wind1/800/600",
-    },
-    {
-      id: 2,
-      titulo: "Parque Eólico Delta",
-      setor: ["Petróleo e gás"],
-      empresa: "EnergyCorp",
-      local: "Ceará, BR",
-      ano: 2023,
-      imagem: "https://picsum.photos/seed/wind1/800/600",
-    },
-    {
-      id: 3,
-      titulo: "Parque Eólico Delta",
-      setor: ["Eólico"],
-      empresa: "EnergyCorp",
-      local: "Ceará, BR",
-      ano: 2023,
-      imagem: "https://picsum.photos/seed/wind1/800/600",
-    },
-    {
-      id: 4,
-      titulo: "Parque Eólico Delta",
-      setor: ["Eólico"],
-      empresa: "EnergyCorp",
-      local: "Ceará, BR",
-      ano: 2023,
-      imagem: "https://picsum.photos/seed/wind1/800/600",
-    },
-  ];
+
   const projetosFiltrados =
     setorAtivo === "Todos"
       ? projetos
@@ -83,7 +46,8 @@ const Portfolio = () => {
           {projetosFiltrados.map((projeto) => (
             <div
               key={projeto.id}
-              className="group relative overflow-hidden rounded-3xl bg-white shadow-xl"
+              className="group relative overflow-hidden rounded-3xl bg-white shadow-xl grayscale hover:grayscale-0 transition duration-700"
+              title={projeto.titulo}
             >
               <div className="aspect-[16/9] overflow-hidden">
                 <img
@@ -94,8 +58,8 @@ const Portfolio = () => {
               </div>
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-10">
-                <span className="text-blue-600 uppercase font-bold tracking-widest text-xs mb-2">
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-500/90 via-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-10">
+                <span className="text-slate-100 uppercase font-bold tracking-widest text-xs mb-2">
                   {projeto.setor.join(" • ")}
                 </span>
 
@@ -103,7 +67,7 @@ const Portfolio = () => {
                   {projeto.titulo}
                 </h4>
 
-                <div className="flex items-center gap-6 text-white/70 text-sm">
+                <div className="flex items-center gap-6 text-white/90 text-sm">
                   <span>{projeto.empresa}</span>
                   <span>{projeto.local}</span>
                   <span>{projeto.ano}</span>

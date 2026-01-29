@@ -1,47 +1,6 @@
-const Team = () => {
-  const time = [
-    {
-      id: 0,
-      nome: "Alan Cícero",
-      cargo: "Organizador",
-      certificacao: ["GWO", "IRATA N3"],
-      descricao:
-        "Mais de 20 anos de experiência no setor offshore e renováveis.",
-      imagem:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
-    },
-    {
-      id: 1,
-      nome: "Aramis",
-      cargo: "Organizador",
-      certificacao: ["GWO", "IRATA N3"],
-      descricao:
-        "Mais de 20 anos de experiência no setor offshore e renováveis.",
-      imagem:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
-    },
-    {
-      id: 2,
-      nome: "Mota",
-      cargo: "Organizador",
-      certificacao: ["GWO", "IRATA N3"],
-      descricao:
-        "Mais de 20 anos de experiência no setor offshore e renováveis.",
-      imagem:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
-    },
-    {
-      id: 3,
-      nome: "Paulo Vitor",
-      cargo: "Organizador",
-      certificacao: ["GWO", "IRATA N3"],
-      descricao:
-        "Mais de 20 anos de experiência no setor offshore e renováveis.",
-      imagem:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZaN3DMgHm01-6C8oAIuJyc1U2k5DM9Qb1g&s",
-    },
-  ];
+import equipe from "../../Data/team.json";
 
+const Team = () => {
   return (
     <section id="team" className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -62,40 +21,45 @@ const Team = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {time.map((funcionario) => {
+          {equipe.map((funcionario) => {
             return (
               <div key={funcionario.id} className="text-center group">
-                <div className="relative mb-6 inline-block">
-                  <div className="absolute inset-0 bg-blue-600 rounded-2xl rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
-
-                  <img
-                    src={funcionario.imagem}
-                    alt={funcionario.nome}
-                    title={funcionario.nome}
-                    className="w-64 h-64 object-cover rounded-2xl relative z-10 grayscale group-hover:grayscale-0 transition-all duration-300 shadow-xl"
-                  />
-                </div>
-                <h4 className="text-2xl font-bold text-slate-900 mb-1">
-                  {funcionario.nome}
-                </h4>
-                <p className="text-blue-600 font-semibold text-sm uppercase tracking-wider mb-4">
-                  {funcionario.cargo}
-                </p>
-                <p className="text-slate-600 text-sm mb-6 px-4">
-                  "{funcionario.descricao}"
-                </p>
-                <div className="flex flex-wrap justify-center gap-2">
-                  {funcionario.certificacao.map((item, index) => {
-                    return (
-                      <span
-                        key={index}
-                        className="px-3 py-1 bg-slate-100 text-slate-500 text-[10px] font-bold uppercase rounded-full"
-                      >
-                        {item}
-                      </span>
-                    );
-                  })}
-                </div>
+                <a
+                  href={funcionario.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="relative mb-6 inline-block">
+                    <div className="absolute inset-0 bg-blue-600 rounded-2xl rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
+                    <img
+                      src={funcionario.imagem}
+                      alt={funcionario.nome}
+                      title={funcionario.nome}
+                      className="w-64 h-64 object-cover rounded-2xl relative z-10 grayscale group-hover:grayscale-0 transition-all duration-300 shadow-xl"
+                    />
+                  </div>
+                  <h4 className="text-2xl font-bold text-slate-900 mb-1">
+                    {funcionario.nome}
+                  </h4>
+                  <p className="text-blue-600 font-semibold text-sm uppercase tracking-wider mb-4">
+                    {funcionario.cargo}
+                  </p>
+                  <p className="text-slate-600 text-sm mb-6 px-4">
+                    "{funcionario.descricao}"
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    {funcionario.certificacao.map((item, index) => {
+                      return (
+                        <span
+                          key={index}
+                          className="px-3 py-1 bg-slate-100 text-slate-500 text-[10px] font-bold uppercase rounded-full"
+                        >
+                          {item}
+                        </span>
+                      );
+                    })}
+                  </div>
+                </a>
               </div>
             );
           })}

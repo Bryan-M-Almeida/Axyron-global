@@ -1,3 +1,4 @@
+import services from "../../Data/services.json";
 import {
   Wind,
   ChevronRight,
@@ -8,58 +9,16 @@ import {
   Fuel,
 } from "lucide-react";
 
-const Services = () => {
-  const services = [
-    {
-      service: "Manutenção de pás eólicas",
-      setor: "Eólico",
-      descricao:
-        "Reparos estruturais em materiais compostos, limpeza e inspeção técnica via acesso por cordas.",
-      link: "",
-      icon: Wind,
-    },
-    {
-      service: "Inspeção Offshore",
-      setor: "Petróleo e gás",
-      descricao:
-        "Inspeções por END (Ensaios Não Destrutivos) em plataformas e FPSOs.",
-      link: "",
-      icon: Ship,
-    },
-    {
-      service: "Trabalho em Altura IRATA",
-      setor: "Geral",
-      descricao:
-        "Serviços especializados de acesso por corda para áreas de difícil alcance.",
-      link: "",
-      icon: HardHat,
-    },
-    {
-      service: "Pintura Industrial",
-      setor: "Geral",
-      descricao:
-        "Tratamento de superfície e pintura anticorrosiva de alta durabilidade.",
-      link: "",
-      icon: Paintbrush,
-    },
-    {
-      service: "Manutenção de Turbinas",
-      setor: "Eólico",
-      descricao:
-        "Auxílio técnico na montagem e comissionamento de parques eólicos onshore e offshore.",
-      link: "",
-      icon: Wrench,
-    },
-    {
-      service: "Integridade de Ativos",
-      setor: "Petróleo e Gás",
-      descricao:
-        "Consultoria em gestão de ativos e planos de manutenção preventiva.",
-      link: "",
-      icon: Fuel,
-    },
-  ];
+const iconMap = {
+  wind: Wind,
+  ship: Ship,
+  hardhat: HardHat,
+  paintbrush: Paintbrush,
+  wrench: Wrench,
+  fuel: Fuel,
+};
 
+const Services = () => {
   return (
     <section id="services" className="py-24 bg-slate-900 text-white">
       <div className="container mx-auto px-6">
@@ -79,7 +38,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((item, index) => {
-            const Icon = item.icon;
+            const Icon = iconMap[item.icon];
 
             return (
               <div
@@ -87,7 +46,7 @@ const Services = () => {
                 className="p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 group"
               >
                 <div className="w-16 h-16 bg-blue-600/10 text-blue-500 rounded-xl flex items-center justify-center text-3xl mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all">
-                  <Icon size={24} />
+                  {Icon && <Icon size={32} />}
                 </div>
 
                 <span className="text-blue-400 text-xs font-bold uppercase tracking-widest mb-2 block">
@@ -102,6 +61,8 @@ const Services = () => {
 
                 <a
                   href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white font-bold inline-flex items-center gap-2 group-hover:text-blue-400 transition-colors"
                 >
                   Saiba mais

@@ -106,8 +106,20 @@ const Seguranca = () => {
 
           <div className="md:w-1/2 w-full">
             <div className="container flex gap-2 items-center justify-center">
-              <img src="https://picsum.photos/seed/safe1/400/500" alt="" className="rounded-xl w-1/2 h-1/2 -translate-y-7" />
-              <img src="https://picsum.photos/seed/safe2/400/500" alt="" className="rounded-xl w-1/2 h-1/2 -translate-y-10"/>
+              <img
+                src="https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684295/Foto_3_poxgia.jpg"
+                alt="Serviço de Blade Repair na Suécia"
+                title="Suécia"
+                className="rounded-xl w-1/2 h-1/2 -translate-y-10 hover:-translate-y-15 transition-transform duration-500"
+                loading="lazy"
+              />
+              <img
+                src="https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684295/Foto_5_p7wajd.jpg"
+                title="Grécia"
+                alt="Serviço de Blade repair na Grécia"
+                className="rounded-xl w-1/2 h-1/2 -translate-y-7 hover:-translate-y-15 transition-transform duration-500"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

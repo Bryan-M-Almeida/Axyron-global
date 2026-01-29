@@ -5,7 +5,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { Mail, Map, Phone } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Contact = () => {
   const [nomeInput, setNomeInput] = useState("");
@@ -15,8 +15,30 @@ const Contact = () => {
   const [mensagemInput, setMensagem] = useState("");
   const numero = "5521966476613";
 
-  const handleClick = () => {
-    const mensagem = `Esses são os meus dados:
+  const [erro, setErro] = useState(false);
+
+  useEffect(() => {
+    if (!erro) return;
+    const timer = setTimeout(() => {
+      setErro(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [erro]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (
+      !nomeInput.trim() ||
+      !emailInput.trim() ||
+      !empresaInput.trim() ||
+      !assuntoInput ||
+      !mensagemInput.trim()
+    ) {
+      setErro(true);
+      return;
+    } else {
+      const mensagem = `Esses são os meus dados:
 
 Nome Completo: ${nomeInput}
 Email: ${emailInput}
@@ -27,9 +49,15 @@ Mensagem:
 ${mensagemInput}
 `;
 
-    const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+      const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
-    window.open(link, "_blank");
+      window.open(link, "_blank");
+      setNomeInput("");
+      setEmailInput("");
+      setMensagem("");
+      setEmpresaInput("");
+      setAssuntoInput("");
+    }
   };
 
   return (
@@ -134,18 +162,24 @@ ${mensagemInput}
               <div className="flex gap-4 ">
                 <a
                   href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-xl hover:bg-blue-600 transition-colors"
                 >
                   <FaFacebook size={20} />
                 </a>
                 <a
                   href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-xl hover:bg-blue-600 transition-colors"
                 >
                   <FaInstagram size={20} />
                 </a>
                 <a
                   href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center text-xl hover:bg-blue-600 transition-colors"
                 >
                   <FaLinkedin size={20} />
@@ -158,20 +192,21 @@ ${mensagemInput}
               <h3 className="text-2xl font-bold text-slate-900 mb-8">
                 Envie uma mensagem
               </h3>
-              <form className="space-y-6" onSubmit={handleClick}>
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
                       htmlFor="name"
                       className="block text-slate-700 text-sm font-bold mb-2"
                     >
-                      Nome completo
+                      Nome completo *
                     </label>
                     <input
                       onChange={(e) => setNomeInput(e.target.value)}
                       required
+                      value={nomeInput}
                       type="text"
-                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
+                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900 capitalize"
                       placeholder="Seu nome"
                       id="name"
                     />
@@ -182,9 +217,10 @@ ${mensagemInput}
                       htmlFor="email"
                       className="block text-slate-700 text-sm font-bold mb-2"
                     >
-                      Email
+                      Email *
                     </label>
                     <input
+                      value={emailInput}
                       onChange={(e) => setEmailInput(e.target.value)}
                       type="email"
                       required
@@ -200,9 +236,10 @@ ${mensagemInput}
                     htmlFor="empresa"
                     className="block text-slate-700 text-sm font-bold mb-2"
                   >
-                    Empresa
+                    Empresa *
                   </label>
                   <input
+                    value={empresaInput}
                     onChange={(e) => setEmpresaInput(e.target.value)}
                     type="text"
                     required
@@ -220,13 +257,14 @@ ${mensagemInput}
                     Assunto *
                   </label>
                   <select
+                    value={assuntoInput}
                     type="text"
                     className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                     id="assunto"
                     onChange={(e) => setAssuntoInput(e.target.value)}
                     required
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Selecione
                     </option>
                     <option value="Orçamento para eólica">
@@ -248,6 +286,7 @@ ${mensagemInput}
                     Mensagem *
                   </label>
                   <textarea
+                    value={mensagemInput}
                     required
                     onChange={(e) => setMensagem(e.target.value)}
                     rows={4}
@@ -277,6 +316,19 @@ ${mensagemInput}
             </div>
           </div>
         </div>
+      </div>
+
+      <div
+        className={`${erro === true ? "flex" : "hidden"} fixed top-20 z-50 font-bold rounded-xl items-center w-full justify-center p-3`}
+      >
+        <a
+          href="#contact"
+          className=" bg-gradient-to-b from-red-500/90 to-red-600/90 font-bold text-xl px-5 rounded-xl py-8 tracking-widest relative"
+          onClick={() => setErro(false)}
+        >
+          Preencha todas as informações no formulário!
+          <span className="absolute top-2 right-2">X</span>
+        </a>
       </div>
     </section>
   );

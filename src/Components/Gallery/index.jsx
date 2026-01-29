@@ -1,15 +1,6 @@
 import { Eye } from "lucide-react";
-
+import galeria from "../../Data/gallery.json";
 const Gallery = () => {
-  const fotos = [
-    {
-      id: 1,
-      link: "",
-      tittle: "",
-      desc: "",
-    }
-  ];
-
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -23,15 +14,16 @@ const Gallery = () => {
         </div>
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
-          {fotos.map((foto) => (
+          {galeria.map((foto) => (
             <div
               key={foto.id}
               className="mb-4 break-inside-avoid overflow-hidden rounded-2xl group relative"
+              title={foto.title}
             >
               <img
-                src={foto.link}
+                src={foto.url}
+                loading="lazy"
                 alt={foto.desc}
-                title={foto.tittle}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-blue-900/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">

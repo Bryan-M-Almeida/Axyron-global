@@ -18,8 +18,8 @@ const About = () => {
             <img
               alt="Industrial Team"
               className="rounded-2xl shadow-2xl relative z-10 w-full object-cover aspect-[4/5]"
-              src="https://images.unsplash.com/photo-1542336391-ae2936d8efe4?auto=format&amp;fit=crop&amp;q=80&amp;w=1000"
-            ></img>
+              src="https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_14_bzvcqy.jpg"
+            />
             <div className="absolute bg-blue-600 text-white p-8 z-20 rounded-xl shadow-xl bottom-10 left-10 hidden md:block">
               <span className="block text-4xl font-black mb-1">+20</span>
               <span className="text-sm font-semibold uppercase tracking-wider">
@@ -86,7 +86,7 @@ const About = () => {
               <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
                 <Leaf
                   size={24}
-                  className="text-blue-500 fill-blue-800 stroke-blue-600"
+                  className="text-blue-500 stroke-blue-600"
                 />
                 <h5 className="font-bold text-slate-900 text-xs uppercase text-center break-words break-all">
                   Sustentabilidade
