@@ -4,8 +4,34 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-import { LecternIcon, Mail, Map, MapIcon, Phone } from "lucide-react";
+import { Mail, Map, Phone } from "lucide-react";
+import { useState } from "react";
+
 const Contact = () => {
+  const [nomeInput, setNomeInput] = useState("");
+  const [emailInput, setEmailInput] = useState("");
+  const [empresaInput, setEmpresaInput] = useState("");
+  const [assuntoInput, setAssuntoInput] = useState("");
+  const [mensagemInput, setMensagem] = useState("");
+  const numero = "5521966476613";
+
+  const handleClick = () => {
+    const mensagem = `Esses são os meus dados:
+
+Nome Completo: ${nomeInput}
+Email: ${emailInput}
+Empresa: ${empresaInput}
+Assunto: ${assuntoInput}
+
+Mensagem:
+${mensagemInput}
+`;
+
+    const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+
+    window.open(link, "_blank");
+  };
+
   return (
     <section
       id="contact"
@@ -132,7 +158,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-slate-900 mb-8">
                 Envie uma mensagem
               </h3>
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleClick}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
@@ -142,6 +168,8 @@ const Contact = () => {
                       Nome completo
                     </label>
                     <input
+                      onChange={(e) => setNomeInput(e.target.value)}
+                      required
                       type="text"
                       className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                       placeholder="Seu nome"
@@ -157,7 +185,9 @@ const Contact = () => {
                       Email
                     </label>
                     <input
+                      onChange={(e) => setEmailInput(e.target.value)}
                       type="email"
+                      required
                       className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                       placeholder="Seu@email.com"
                       id="email"
@@ -173,7 +203,9 @@ const Contact = () => {
                     Empresa
                   </label>
                   <input
+                    onChange={(e) => setEmpresaInput(e.target.value)}
                     type="text"
+                    required
                     className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                     placeholder="Nome da sua empresa"
                     id="empresa"
@@ -185,17 +217,26 @@ const Contact = () => {
                     htmlFor="assunto"
                     className="block text-slate-700 text-sm font-bold mb-2"
                   >
-                    Assunto
+                    Assunto *
                   </label>
                   <select
                     type="text"
                     className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                     id="assunto"
+                    onChange={(e) => setAssuntoInput(e.target.value)}
+                    required
                   >
-                    <option value="">Orçamento para eólica</option>
-                    <option value="">Manutenção Offshore</option>
-                    <option value="">Trabalhe Conosco</option>
-                    <option value="">Outros</option>
+                    <option value="" selected disabled>
+                      Selecione
+                    </option>
+                    <option value="Orçamento para eólica">
+                      Orçamento para eólica
+                    </option>
+                    <option value="Manutenção Offshore">
+                      Manutenção Offshore
+                    </option>
+                    <option value="Trabalhe Conosco">Trabalhe Conosco</option>
+                    <option value="Outros">Outros</option>
                   </select>
                 </div>
 
@@ -204,9 +245,11 @@ const Contact = () => {
                     htmlFor="mensagem"
                     className="block text-slate-700 text-sm font-bold mb-2"
                   >
-                    Mensagem
+                    Mensagem *
                   </label>
                   <textarea
+                    required
+                    onChange={(e) => setMensagem(e.target.value)}
                     rows={4}
                     className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:outline-none text-slate-900"
                     placeholder="Como podemos ajudar?"
@@ -214,8 +257,8 @@ const Contact = () => {
                   />
                 </div>
                 <button
-                  className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-all shadow-lg uppercase cursor-pointer"
                   type="submit"
+                  className="w-full py-4 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-all shadow-lg uppercase cursor-pointer"
                 >
                   Enviar solicitação
                 </button>
