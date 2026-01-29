@@ -45,7 +45,7 @@ const Team = () => {
                     {funcionario.cargo}
                   </p>
                   <p className="text-slate-600 text-sm mb-6 px-4">
-                    "{funcionario.descricao}"
+                    {funcionario.descricao}
                   </p>
                   <div className="flex flex-wrap justify-center gap-2">
                     {funcionario.certificacao.map((item, index) => {

@@ -33,12 +33,13 @@ const About = () => {
               Nossa história
             </span>
             <h2 className="text-4xl mb:text-5xl font-brand font-black text-slate-900 mb-6 leading-tight">
-              Desde 2012, transformando o setor industrial.
+              Equipe em formação transformando o setor industrial a mais de 20
+              anos.
             </h2>
 
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              O <strong>Axyron Global</strong> nasceu com a missão de elevar o
-              padrão de manutenção industrial no Brasil. Especializados em
+              A <strong>Axyron Global</strong> nasceu com a missão de elevar o
+              padrão de manutenção industrial no Brasil. Equipe aspecializada em
               acesso por corda e reparos estruturais, rapidamente nos tornamos
               referência para as maiores empresas do mercado offshore e eólico.
             </p>
@@ -84,10 +85,7 @@ const About = () => {
               </div>
 
               <div className="p-4 bg-slate-50 rounded-lg text-center hover:bg-blue-50 transition-colors flex items-center flex-col gap-2">
-                <Leaf
-                  size={24}
-                  className="text-blue-500 stroke-blue-600"
-                />
+                <Leaf size={24} className="text-blue-500 stroke-blue-600" />
                 <h5 className="font-bold text-slate-900 text-xs uppercase text-center break-words break-all">
                   Sustentabilidade
                 </h5>

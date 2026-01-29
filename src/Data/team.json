@@ -2,26 +2,26 @@
   {
     "id": 1,
     "nome": "Alan Cícero",
-    "cargo": "CEO",
-    "certificacao": ["GWO", "IRATA N3"],
-    "descricao": "Mais de 20 anos de experiência no setor offshore e renováveis.",
+    "cargo": "Líder",
+    "certificacao": ["GWO", "IRATA N3", "SEA SURVIVAL", "Blade Repair", "+"],
+    "descricao": "Técnico Blade Repair, contando com diversos prêmios, certificações em segurança e mais de 20 anos de experiência no setor industrial.",
     "url": "https://www.linkedin.com/in/alan-cicero-blade-repair-technician/",
     "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684299/Foto_17_f1offd.jpg"
   },
   {
     "id": 2,
     "nome": "Aramis",
-    "cargo": "Organizador",
-    "certificacao": ["GWO", "IRATA N3"],
+    "cargo": "Colíder",
+    "certificacao": ["GWO", "IRATA N3", "Blade Repair", "+3"],
     "descricao": "Mais de 20 anos de experiência no setor offshore e renováveis.",
-    "url": "https://www.linkedin.com/in/alan-cicero-blade-repair-technician/",
-    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684309/Foto_40_q64axc.jpg"
+    "url": "https://www.linkedin.com/in/aramissupervisor/",
+    "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711918/WhatsApp_Image_2026-01-29_at_10.53.43_2_lfopwj.jpg"
   },
   {
     "id": 3,
     "nome": "Alexandre Mota",
-    "cargo": "Organizador",
-    "certificacao": ["GWO", "IRATA N3"],
+    "cargo": "Comercial",
+    "certificacao": [""],
     "descricao": "Mais de 20 anos de experiência no setor offshore e renováveis.",
     "url": "https://www.linkedin.com/in/alan-cicero-blade-repair-technician/",
     "imagem": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684309/Foto_40_q64axc.jpg"

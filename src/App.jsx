@@ -15,6 +15,7 @@ import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
 import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
+import CookieBanner from "./Components/CookieBanner";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </div>
   );
 }
