@@ -1,6 +1,11 @@
 import { Eye } from "lucide-react";
 import galeria from "../../Data/gallery.json";
+
+import { useState } from "react";
+
 const Gallery = () => {
+  const [visibleCount, setVisibleCount] = useState(8);
+
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -13,8 +18,8 @@ const Gallery = () => {
           </h2>
         </div>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
-          {galeria.map((foto) => (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-full">
+          {galeria.slice(0, visibleCount).map((foto) => (
             <div
               key={foto.id}
               className="mb-4 break-inside-avoid overflow-hidden rounded-2xl group relative"
@@ -32,6 +37,16 @@ const Gallery = () => {
             </div>
           ))}
         </div>
+        {visibleCount < galeria.length && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={() => setVisibleCount((prev) => prev + 4)}
+              className="rounded-xl bg-blue-700 px-6 py-3 text-white hover:bg-blue-800 transition cursor-pointer"
+            >
+              Carregar mais imagens
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

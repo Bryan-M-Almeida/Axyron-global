@@ -3,42 +3,42 @@
     "service": "Manutenção de pás eólicas",
     "setor": "Eólico",
     "descricao": "Reparos estruturais em materiais compostos, limpeza e inspeção técnica via acesso por cordas.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20manutenção%20de%20pás%20eólicas.%20Poderiam%20me%20passar%20mais%20informações?",
     "icon": "wind"
   },
   {
     "service": "Inspeção Offshore",
     "setor": "Petróleo e gás",
     "descricao": "Inspeções por END (Ensaios Não Destrutivos) em plataformas e FPSOs.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20solicitar%20um%20orçamento%20para%20serviços%20de%20inspeção%20offshore.%20Podemos%20conversar?",
     "icon": "ship"
   },
   {
     "service": "Trabalho em Altura IRATA",
     "setor": "Geral",
     "descricao": "Serviços especializados de acesso por corda para áreas de difícil alcance.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20serviços%20de%20trabalho%20em%20altura%20com%20certificação%20IRATA.",
     "icon": "hardhat"
   },
   {
     "service": "Pintura Industrial",
     "setor": "Geral",
     "descricao": "Tratamento de superfície e pintura anticorrosiva de alta durabilidade.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20estou%20buscando%20um%20orçamento%20para%20serviços%20de%20pintura%20industrial%20e%20tratamento%20anticorrosivo.",
     "icon": "paintbrush"
   },
   {
     "service": "Manutenção de Turbinas",
     "setor": "Eólico",
     "descricao": "Auxílio técnico na montagem e comissionamento de parques eólicos onshore e offshore.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20manutenção%20e%20suporte%20técnico%20em%20turbinas%20eólicas.",
     "icon": "wrench"
   },
   {
     "service": "Integridade de Ativos",
     "setor": "Petróleo e Gás",
     "descricao": "Consultoria em gestão de ativos e planos de manutenção preventiva.",
-    "link": "",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20consultoria%20e%20orçamento%20para%20serviços%20de%20integridade%20de%20ativos.%20Aguardo%20contato.",
     "icon": "fuel"
   }
 ]

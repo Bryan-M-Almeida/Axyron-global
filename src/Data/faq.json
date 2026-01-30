@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Quais são as principais certificações da equipe?",
+    "resposta": "Nossa equipe possui certificações internacionais reconhecidas, incluindo IRATA (Níveis 1, 2 e 3), GWO (Global Wind Organisation), HUET, CBSP e treinamentos específicos exigidos por normas nacionais e internacionais para operações offshore e industriais."
+  },
+  {
+    "id": 2,
+    "pergunta": "A Axyron Global atua fora do Brasil?",
+    "resposta": "Sim. Atuamos em toda a América Latina e possuímos estrutura operacional e parcerias estratégicas que permitem a execução de projetos internacionais, incluindo Europa, conforme requisitos legais e normativos de cada país."
+  },
+  {
+    "id": 3,
+    "pergunta": "Quais são os diferenciais de segurança da empresa?",
+    "resposta": "Mantemos índice zero de acidentes com afastamento desde a fundação. Operamos com base na ISO 45001, aplicando gestão de riscos, controle operacional rigoroso, inspeções periódicas e cultura ativa de segurança."
+  },
+  {
+    "id": 4,
+    "pergunta": "A empresa segue normas e padrões internacionais?",
+    "resposta": "Sim. Nossos processos são estruturados e alinhados às normas ISO 9001 (Gestão da Qualidade), ISO 14001 (Gestão Ambiental) e ISO 45001 (Saúde e Segurança Ocupacional), além de legislações locais e boas práticas internacionais."
+  },
+  {
+    "id": 5,
+    "pergunta": "Como funciona o processo de orçamento dos serviços?",
+    "resposta": "Todo orçamento é elaborado exclusivamente após análise técnica detalhada, considerando escopo, riscos operacionais, requisitos normativos, condições ambientais, logística, recursos necessários e exigências específicas do cliente."
+  },
+  {
+    "id": 6,
+    "pergunta": "Os valores são fixos ou variáveis?",
+    "resposta": "Os valores variam conforme a complexidade do projeto, análise de riscos, tempo de execução, recursos humanos, equipamentos certificados e requisitos de HSE. Não trabalhamos com valores genéricos ou estimativas sem base técnica."
+  },
+  {
+    "id": 7,
+    "pergunta": "A empresa realiza análise de risco antes das operações?",
+    "resposta": "Sim. Todas as operações passam por APR (Análise Preliminar de Riscos), JSA/JHA (Job Safety Analysis) e definição de controles operacionais, conforme exigências da ISO 45001 e políticas internas de HSE."
+  },
+  {
+    "id": 8,
+    "pergunta": "Como é garantida a qualidade dos serviços prestados?",
+    "resposta": "Seguimos processos padronizados baseados na ISO 9001, com planejamento, execução controlada, registros operacionais, monitoramento de desempenho e melhoria contínua."
+  },
+  {
+    "id": 9,
+    "pergunta": "A empresa possui indicadores e relatórios de HSE?",
+    "resposta": "Sim. Mantemos indicadores de desempenho de HSE, relatórios técnicos, registros de inspeção, auditorias internas e acompanhamento contínuo de conformidade operacional."
+  },
+  {
+    "id": 10,
+    "pergunta": "Os equipamentos utilizados atendem normas técnicas?",
+    "resposta": "Todos os equipamentos utilizados são certificados, inspecionados periodicamente e atendem normas técnicas nacionais e internacionais, garantindo confiabilidade e segurança operacional."
+  },
+  {
+    "id": 11,
+    "pergunta": "Como a empresa trata questões ambientais?",
+    "resposta": "Adotamos práticas alinhadas à ISO 14001, incluindo controle de resíduos, prevenção de impactos ambientais, uso responsável de recursos e cumprimento integral da legislação ambiental aplicável."
+  },
+  {
+    "id": 12,
+    "pergunta": "A Axyron Global adapta seus processos às exigências do cliente?",
+    "resposta": "Sim. Nossos processos são flexíveis e adaptáveis para atender requisitos contratuais, políticas internas de clientes, normas específicas de projetos e exigências regulatórias locais."
+  },
+  {
+    "id": 13,
+    "pergunta": "A empresa possui política de ética e compliance?",
+    "resposta": "Sim. Operamos com políticas rigorosas de ética, integridade, compliance e governança corporativa, assegurando transparência, responsabilidade legal e conformidade regulatória."
+  },
+  {
+    "id": 14,
+    "pergunta": "Como é feita a qualificação dos profissionais?",
+    "resposta": "Os profissionais passam por processos contínuos de capacitação, reciclagem, avaliações técnicas e validação documental, garantindo conformidade com normas, certificações e exigências contratuais."
+  },
+  {
+    "id": 15,
+    "pergunta": "A empresa executa serviços sem análise técnica prévia?",
+    "resposta": "Não. Nenhuma operação é iniciada sem análise técnica, avaliação de riscos, definição de escopo e validação de requisitos de segurança, qualidade e meio ambiente."
+  }
+]

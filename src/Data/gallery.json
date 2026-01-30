@@ -1,74 +1,122 @@
 [
   {
     "id": 1,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711835/WhatsApp_Image_2026-01-29_at_12.34.27_sl7mn1.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711835/WhatsApp_Image_2026-01-29_at_10.53.42_alwagy.jpg",
+    "title": "Operação Offshore",
+    "desc": "Equipe técnica atuando em operação offshore com procedimentos de segurança e controle operacional."
   },
   {
     "id": 2,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684299/Foto_18_s7e71i.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_9_gvof9p.jpg",
+    "title": "Manutenção Industrial em Altura",
+    "desc": "Profissional realizando manutenção industrial em altura com acesso por cordas e equipamentos certificados."
   },
   {
     "id": 3,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684299/Foto_17_f1offd.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684303/Foto_24_or2iok.jpg",
+    "title": "Inspeção Técnica de Estruturas",
+    "desc": "Inspeção técnica visual em estrutura industrial para avaliação de integridade e conformidade."
   },
   {
     "id": 4,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684298/Foto_15_oxstd1.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711834/WhatsApp_Image_2026-01-29_at_12.34.05_ofzwf2.jpg",
+    "title": "Equipe Técnica em Operação",
+    "desc": "Equipe técnica especializada executando atividade industrial conforme procedimentos operacionais."
   },
   {
     "id": 5,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_14_bzvcqy.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_12_i61xgg.jpg",
+    "title": "Atividade de Acesso por Cordas",
+    "desc": "Trabalho em acesso por cordas seguindo normas de segurança e boas práticas internacionais."
   },
   {
     "id": 6,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_10_ocxent.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711835/WhatsApp_Image_2026-01-29_at_12.34.27_sl7mn1.jpg",
+    "title": "Execução de Blade Repair",
+    "desc": "Execução de reparo em pás eólicas utilizando técnicas especializadas de blade repair."
   },
   {
     "id": 7,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_6_bce7rc.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684308/Foto_37_wjsjte.jpg",
+    "title": "Serviço Técnico Especializado",
+    "desc": "Serviço técnico especializado realizado por equipe qualificada em ambiente industrial."
   },
   {
     "id": 8,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684304/Foto_30_afb70c.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_13_fbzpwd.jpg",
+    "title": "Trabalho em Ambiente Controlado",
+    "desc": "Atividade técnica executada em ambiente controlado com foco em segurança e qualidade."
   },
   {
     "id": 9,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684297/Foto_13_fbzpwd.jpg",
-    "title": "",
-    "desc": ""
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711835/WhatsApp_Image_2026-01-29_at_10.53.43_4_kedtwt.jpg",
+    "title": "Execução Conforme Normas ISO",
+    "desc": "Execução de serviço industrial em conformidade com normas ISO e requisitos de HSE."
   },
   {
     "id": 10,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684305/Foto_32_xeu6zj.jpg",
+    "title": "Reparo Estrutural Avançado",
+    "desc": "Reparo estrutural avançado realizado por profissionais certificados em manutenção industrial."
+  },
+  {
+    "id": 11,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711834/WhatsApp_Image_2026-01-29_at_10.53.42_3_ckwubt.jpg",
+    "title": "Operação Técnica em Campo",
+    "desc": "Operação técnica em campo com planejamento, análise de risco e controle operacional."
+  },
+  {
+    "id": 12,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_6_bce7rc.jpg",
+    "title": "Procedimentos de Segurança HSE",
+    "desc": "Aplicação de procedimentos de segurança, saúde e meio ambiente durante atividade industrial."
+  },
+  {
+    "id": 13,
     "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684300/Foto_19_bjbgam.jpg",
-    "title": "",
-    "desc": ""
+    "title": "Inspeção Visual Técnica",
+    "desc": "Inspeção visual técnica para verificação de condições estruturais e operacionais."
   },
   {
-    "id": 11,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711834/WhatsApp_Image_2026-01-29_at_12.34.05_ofzwf2.jpg",
-    "title": "",
-    "desc": ""
+    "id": 14,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711834/WhatsApp_Image_2026-01-29_at_10.53.42_2_rjj4n5.jpg",
+    "title": "Execução em Ambiente Offshore",
+    "desc": "Execução de atividade técnica em ambiente offshore seguindo padrões internacionais."
   },
   {
-    "id": 11,
-    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684299/Foto_16_ahofhj.jpg",
-    "title": "",
-    "desc": ""
+    "id": 15,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684304/Foto_29_teoiba.jpg",
+    "title": "Atividade Industrial Especializada",
+    "desc": "Atividade industrial especializada realizada com equipamentos adequados e equipe qualificada."
+  },
+  {
+    "id": 16,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684300/Foto_20_h1jahz.jpg",
+    "title": "Equipe Certificada em Ação",
+    "desc": "Equipe certificada atuando em serviço técnico com foco em segurança e eficiência."
+  },
+  {
+    "id": 17,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684309/Foto_40_q64axc.jpg",
+    "title": "Manutenção de Componentes Críticos",
+    "desc": "Manutenção de componentes críticos em estrutura industrial conforme procedimentos técnicos."
+  },
+  {
+    "id": 18,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684306/Foto_33_lbr0q5.jpg",
+    "title": "Operação Técnica de Alta Complexidade",
+    "desc": "Operação técnica de alta complexidade executada por profissionais experientes."
+  },
+  {
+    "id": 19,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769711834/WhatsApp_Image_2026-01-29_at_12.34.27_2_f3ulxq.jpg",
+    "title": "Trabalho Técnico em Altura",
+    "desc": "Trabalho técnico em altura realizado com sistemas de proteção coletiva e individual."
+  },
+  {
+    "id": 20,
+    "url": "https://res.cloudinary.com/dx1rrsnob/image/upload/v1769684296/Foto_7_kpof98.jpg",
+    "title": "Aplicação de Procedimentos Técnicos",
+    "desc": "Aplicação de procedimentos técnicos padronizados durante serviço industrial."
   }
 ]

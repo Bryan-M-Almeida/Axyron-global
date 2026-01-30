@@ -7,7 +7,6 @@ const CookieBanner = () => {
     const consent = localStorage.getItem("axyron_cookie_consent");
     if (!consent) setVisible(true);
   }, []);
-  localStorage.clear();
   const acceptCookies = () => {
     localStorage.setItem("axyron_cookie_consent", "accepted");
     setVisible(false);

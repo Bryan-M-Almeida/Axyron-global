@@ -1,28 +1,8 @@
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
+import faqs from "../../Data/faq.json";
 const Faq = () => {
   const [faqAberta, setFaqAberta] = useState(null);
-
-  const faqs = [
-    {
-      id: 1,
-      pergunta: "Quais são as principais certificações da equipe?",
-      resposta:
-        "Nossa equipe possui certificações internacionais como IRATA (Níveis 1, 2 e 3), GWO (Global Wind Organisation), HUET e CBSP para operações offshore.",
-    },
-    {
-      id: 2,
-      pergunta: "A Axyron Global atua fora do Brasil?",
-      resposta:
-        "Sim, realizamos operações em toda a América Latina e possuímos parcerias estratégicas para projetos na Europa.",
-    },
-    {
-      id: 3,
-      pergunta: "Quais são os diferenciais de segurança da empresa?",
-      resposta:
-        "Temos um índice zero de acidentes com afastamento desde a fundação. Utilizamos equipamentos de ponta e auditorias semanais de HSE.",
-    },
-  ];
 
   return (
     <section id="faq" className="py-24 bg-slate-50">

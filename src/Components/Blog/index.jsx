@@ -24,38 +24,34 @@ const Blog = () => {
                 className="group cursor-pointer min-w-[320px] max-w-[320px]"
                 key={post.id}
               >
-                <div className="relative overflow-hidden rounded-2xl mb-6 shadow-lg">
-                  <img
-                    src={post.imagem}
-                    alt={post.descricao}
-                    title={post.tittle}
-                    className="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-bold uppercase rounded-md tracking-wider">
-                      Notícias
-                    </span>
+                <a href={post.url} rel="noopener noreferrer" target="_blank">
+                  <div className="relative overflow-hidden rounded-2xl mb-6 shadow-lg">
+                    <img
+                      src={post.imagem}
+                      alt={post.descricao}
+                      title={post.tittle}
+                      className="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-bold uppercase rounded-md tracking-wider">
+                        Notícias
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest mb-3">
-                  <Calendar size={20} /> 
-                  <span>{post.data}</span>
-                </div>
-
-                <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors leading-tight">
-                  {post.tittle}
-                </h3>
-                <p className="text-slate-600 text-sm mb-6 line-clamp-2">
-                  {post.descricao}
-                </p>
-                <a
-                  href={post.url}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="font-bold text-sm flex items-center gap-2 text-slate-900 hover:gap-4 transition-all"
-                >
-                  Ler Artigo Completo
-                  <ArrowRight size={25} className="text-blue-600" />
+                  <div className="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-widest mb-3">
+                    <Calendar size={20} />
+                    <span>{post.data}</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-4 group-hover:text-blue-600 transition-colors leading-tight">
+                    {post.tittle}
+                  </h3>
+                  <p className="text-slate-600 text-sm mb-6 line-clamp-2">
+                    {post.descricao}
+                  </p>
+                  <span className="font-bold text-sm flex items-center gap-2 text-slate-900 hover:gap-4 transition-all">
+                    Ler Artigo Completo
+                    <ArrowRight size={25} className="text-blue-600" />
+                  </span>
                 </a>
               </article>
             );
