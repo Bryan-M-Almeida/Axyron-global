@@ -16,7 +16,7 @@ import Footer from "./Components/Footer";
 import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
 import CookieBanner from "./Components/CookieBanner";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 function App() {
   return (
     <div className="min-h-screen">
