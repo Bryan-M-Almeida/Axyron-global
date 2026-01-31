@@ -45,7 +45,7 @@ const TermsModal = ({ isOpen, onClose }) => {
           <p>
             Axyron Global é um grupo técnico-operacional em processo de formação
             empresarial, sediado no Brasil (Rio de Janeiro), atualmente operando
-            sob o CNPJ 47.242.176/0001-13, registrado em nome de Alan Cícero de
+            sob o CNPJ 37.069.232/0001-06, registrado em nome de Alan Cícero de
             Almeida (MEI), com atuação nacional e internacional.
           </p>
 
