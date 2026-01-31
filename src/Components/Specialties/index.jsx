@@ -7,8 +7,13 @@ import {
   Paintbrush,
   Wrench,
   Fuel,
+  Fan,
+  Factory,
+  Settings,
+  Brush,
 } from "lucide-react";
 
+import { FaOilWell, FaIndustry } from "react-icons/fa6";
 const iconMap = {
   wind: Wind,
   ship: Ship,
@@ -16,6 +21,12 @@ const iconMap = {
   paintbrush: Paintbrush,
   wrench: Wrench,
   fuel: Fuel,
+  factory: Factory,
+  settings: Settings,
+  oil: FaOilWell,
+  industry: FaIndustry,
+  brush: Brush,
+  fan: Fan,
 };
 
 const Services = () => {
@@ -37,12 +48,12 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((item, index) => {
+          {services.map((item) => {
             const Icon = iconMap[item.icon];
 
             return (
               <div
-                key={index}
+                key={item.id}
                 className="p-8 bg-slate-800 border border-slate-700 rounded-2xl hover:bg-slate-700 transition-all duration-300 hover:-translate-y-2 group"
               >
                 <div className="w-16 h-16 bg-blue-600/10 text-blue-500 rounded-xl flex items-center justify-center text-3xl mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all">

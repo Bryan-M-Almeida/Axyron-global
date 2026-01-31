@@ -1,44 +1,98 @@
 [
   {
-    "service": "Manutenção de pás eólicas",
+    "id": 1,
+    "service": "Manutenção de Pás Eólicas",
     "setor": "Eólico",
-    "descricao": "Reparos estruturais em materiais compostos, limpeza e inspeção técnica via acesso por cordas.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20manutenção%20de%20pás%20eólicas.%20Poderiam%20me%20passar%20mais%20informações?",
+    "descricao": "Reparos estruturais em materiais compostos, limpeza técnica e inspeções visuais e funcionais utilizando acesso por cordas.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20manutenção%20de%20pás%20eólicas.",
     "icon": "wind"
   },
   {
+    "id": 2,
     "service": "Inspeção Offshore",
-    "setor": "Petróleo e gás",
-    "descricao": "Inspeções por END (Ensaios Não Destrutivos) em plataformas e FPSOs.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20solicitar%20um%20orçamento%20para%20serviços%20de%20inspeção%20offshore.%20Podemos%20conversar?",
+    "setor": "Petróleo e Gás",
+    "descricao": "Inspeções técnicas por END em plataformas offshore, FPSOs e estruturas marítimas, visando integridade estrutural e conformidade normativa.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20orçamento%20para%20serviços%20de%20inspeção%20offshore.",
     "icon": "ship"
   },
   {
+    "id": 3,
     "service": "Trabalho em Altura IRATA",
     "setor": "Geral",
-    "descricao": "Serviços especializados de acesso por corda para áreas de difícil alcance.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20serviços%20de%20trabalho%20em%20altura%20com%20certificação%20IRATA.",
+    "descricao": "Serviços de acesso por corda certificados IRATA para inspeção, manutenção e montagem em áreas de difícil acesso.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20trabalho%20em%20altura%20IRATA.",
     "icon": "hardhat"
   },
   {
+    "id": 4,
     "service": "Pintura Industrial",
     "setor": "Geral",
-    "descricao": "Tratamento de superfície e pintura anticorrosiva de alta durabilidade.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20estou%20buscando%20um%20orçamento%20para%20serviços%20de%20pintura%20industrial%20e%20tratamento%20anticorrosivo.",
+    "descricao": "Tratamento de superfícies e aplicação de sistemas de pintura anticorrosiva para ambientes industriais severos.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20busco%20orçamento%20para%20pintura%20industrial%20anticorrosiva.",
     "icon": "paintbrush"
   },
   {
-    "service": "Manutenção de Turbinas",
+    "id": 5,
+    "service": "Manutenção de Turbinas Eólicas",
     "setor": "Eólico",
-    "descricao": "Auxílio técnico na montagem e comissionamento de parques eólicos onshore e offshore.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20serviços%20de%20manutenção%20e%20suporte%20técnico%20em%20turbinas%20eólicas.",
+    "descricao": "Suporte técnico para montagem, manutenção mecânica e comissionamento de turbinas eólicas onshore e offshore.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20orçamento%20para%20manutenção%20de%20turbinas%20eólicas.",
     "icon": "wrench"
   },
   {
-    "service": "Integridade de Ativos",
+    "id": 6,
+    "service": "Integridade de Ativos Industriais",
     "setor": "Petróleo e Gás",
-    "descricao": "Consultoria em gestão de ativos e planos de manutenção preventiva.",
-    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20consultoria%20e%20orçamento%20para%20serviços%20de%20integridade%20de%20ativos.%20Aguardo%20contato.",
+    "descricao": "Gestão da integridade de ativos críticos com foco em confiabilidade operacional, análise de falhas e planos de manutenção preventiva.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20serviços%20de%20integridade%20de%20ativos.",
     "icon": "fuel"
+  },
+  {
+    "id": 7,
+    "service": "Manutenção e Engenharia Siderúrgica",
+    "setor": "Siderúrgica",
+    "descricao": "Manutenção pesada e engenharia aplicada para altos-fornos, aciarias, laminações e sistemas auxiliares, com foco em segurança e produtividade.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20serviços%20para%20o%20setor%20siderúrgico.",
+    "icon": "industry"
+  },
+  {
+    "id": 8,
+    "service": "Parada Geral Siderúrgica",
+    "setor": "Siderúrgica",
+    "descricao": "Planejamento e execução de paradas gerais para manutenção corretiva e preventiva em plantas siderúrgicas.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20orçamento%20para%20parada%20geral%20em%20siderúrgica.",
+    "icon": "factory"
+  },
+  {
+    "id": 9,
+    "service": "Inspeção de Torres Eólicas",
+    "setor": "Eólico",
+    "descricao": "Inspeção estrutural e dimensional de torres eólicas com foco em corrosão, soldas e integridade mecânica.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20inspeção%20de%20torres%20eólicas.",
+    "icon": "fan"
+  },
+  {
+    "id": 10,
+    "service": "Manutenção Mecânica Offshore",
+    "setor": "Petróleo e Gás",
+    "descricao": "Manutenção mecânica e estrutural em ambientes offshore, incluindo tubulações, válvulas e estruturas metálicas.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20orçamento%20para%20manutenção%20mecânica%20offshore.",
+    "icon": "oil"
+  },
+  {
+    "id": 11,
+    "service": "Inspeção e Reparo de Caldeiraria",
+    "setor": "Industrial",
+    "descricao": "Inspeção técnica, fabricação, reparo e reforço estrutural de componentes de caldeiraria pesada e leve, incluindo soldagem industrial.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20gostaria%20de%20orçamento%20para%20inspeção%20e%20reparo%20de%20caldeiraria.",
+    "icon": "settings"
+  },
+  {
+    "id": 12,
+    "service": "Inspeção e Pintura Industrial",
+    "setor": "Industrial",
+    "descricao": "Inspeção de superfícies, preparação e aplicação de sistemas de pintura industrial e anticorrosiva conforme normas técnicas.",
+    "link": "https://wa.me/5521966476613?text=Olá,%20tenho%20interesse%20em%20serviços%20de%20inspeção%20e%20pintura%20industrial.",
+    "icon": "brush"
   }
 ]
