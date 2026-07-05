@@ -265,7 +265,7 @@ const Footer = () => {
           </a>
 
           <a href="#" className="hover:text-white">
-            CNPJ <strong>47.242.176/0001-13</strong>
+            CNPJ <strong>37.069.232/0001-06</strong>
           </a>
         </div>
       </div>
